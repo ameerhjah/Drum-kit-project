@@ -1,5 +1,5 @@
 //selecting the drum from the html page using the querry selector.
-var numberOfDrumButtons = document.querySelectorAll(".drum").length;
+let numberOfDrumButtons = document.querySelectorAll(".drum").length;
 
 for (var i = 0; i < numberOfDrumButtons; i++) {
   document.querySelectorAll(".drum")[i].addEventListener("click", function () {

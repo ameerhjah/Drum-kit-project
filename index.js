@@ -1,4 +1,4 @@
-//selecting the drum from the html page.
+//selecting the drum from the html page using the querry selector.
 var numberOfDrumButtons = document.querySelectorAll(".drum").length;
 
 for (var i = 0; i < numberOfDrumButtons; i++) {
